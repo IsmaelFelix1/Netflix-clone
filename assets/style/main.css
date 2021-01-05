@@ -11,6 +11,7 @@
 body {
     background-color: var(--black);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .container {
@@ -34,4 +35,15 @@ header nav a {
 
 header nav a:hover{
     color: #fff;
+}
+
+/*
+Filme Principal
+*/
+
+.filme-principal {
+    font-size: 16px;
+    background: url(../img/roYyPiQDQKmIKUEhO912693tSja.jpg);
+    height: 400px;
+    background-size: cover;
 }
