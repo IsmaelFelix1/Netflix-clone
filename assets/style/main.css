@@ -19,6 +19,7 @@ header .container {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+
 }
 header .logo {
     margin-left: 5px;
@@ -40,6 +41,9 @@ header nav a:hover{
 /*
 Filme Principal
 */
+.container {
+    margin-left: 20px;
+}
 
 .filme-principal {
     font-size: 16px;
@@ -50,6 +54,10 @@ Filme Principal
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+
+.filme-principal .container {
+    width: 70%;
 }
 
 .filme-principal .descricao {
