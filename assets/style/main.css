@@ -90,3 +90,9 @@ Filme Principal
 .botao i {
     margin-right: 5px;
 }
+
+.box-filmes {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
